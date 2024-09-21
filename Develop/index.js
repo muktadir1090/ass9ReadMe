@@ -4,35 +4,69 @@ const fs = require('fs').promises;
 
 // Array of questions for user input
 const questions = [
-  {
-    type: 'input',
-    message: 'Write the name of your Project title?',
-    name: 'title',
-  },
-  {
-    type: 'input',
-    message: 'Write the description of your project',
-    name: 'description',
-  },
-  {
-    type: 'input',
-    message: 'Enter Table of Content',
-    name: 'table_content',
-  },
-];
+    {
+      type: 'input',
+      message: 'Write the name of your Project title?',
+      name: 'title',
+    },
+    {
+      type: 'input',
+      message: 'Write the description of your project',
+      name: 'description',
+    },
+    {
+      type: 'input',
+      message: 'Enter Table of Content',
+      name: 'table_content',
+    },
+    {
+      type: 'input',
+      message: 'Enter installation instructions',
+      name: 'installation',
+    },
+    {
+      type: 'input',
+      message: 'Enter usage information',
+      name: 'usage',
+    },
+    {
+      type: 'input',
+      message: 'Enter contribution guidelines',
+      name: 'contributing',
+    },
+    {
+      type: 'input',
+      message: 'Enter test instructions',
+      name: 'tests',
+    },
+  ];
+  
+  // Function to generate the README content
+  function generateReadMe(answers) {
+    return `
+  # Project Title: ${answers.title}
+  
+  ## Table Of Content:
+  ${answers.table_content}
+  
+  ### Description:
+  ${answers.description}
+  
+  ### Installation Instructions:
+  ${answers.installation}
+  
+  ### Usage:
+  ${answers.usage}
+  
+  ### Contribution Guidelines:
+  ${answers.contributing}
+  
+  ### Test Instructions:
+  ${answers.tests}
+  `;
+  }
+  
 
-// Function to generate the README content
-function generateReadMe(answers) {
-  return `
-# Project Title: ${answers.title}
-
-## Table Of Content:
-${answers.table_content}
-
-### Description:
-${answers.description}
-`;
-}
 // TODO: Create a function to write README file
 async function writeToFile(fileName, data) {
     try {
