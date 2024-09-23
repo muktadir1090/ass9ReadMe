@@ -1,6 +1,7 @@
 // Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs').promises;
+const generateMarkdown = require('./utils/generateMarkdown'); // Import the function
 
 // Array of questions for user input
 const questions = [
