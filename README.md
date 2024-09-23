@@ -15,7 +15,7 @@ The README Generator is a command-line application designed to quickly and easil
 	•	Tests
 	•	Questions
 
-Installation
+Installation:
 
 To install and use this application, follow these steps:
 1.Clone the repository:
@@ -44,14 +44,16 @@ You will be prompted to provide the following information:
 
 Once all prompts are completed, a README.md file will be generated with the information provided.
 
-A walkthrough video demonstrating the application usage can be found here.
+###Video Link : A walkthrough video demonstrating the application usage can be found here.
+[
+](https://drive.google.com/file/d/1i3CIh3eO3DsdfEDOIJlCo9Lw9rwsadcz/view?usp=sharing)
 
-License
+###License
 
 This project is licensed under the MIT License.
 For more details, see the LICENSE file.
 
-Contributing
+###Contributing
 
 Contributions are welcome! To contribute:
 
@@ -60,7 +62,7 @@ Contributions are welcome! To contribute:
 	3.	Make your changes.
 	4.	Submit a pull request.
 
-Tests
+###Tests
 
 To run tests, use the following command:
 npm test
@@ -72,6 +74,6 @@ If you have any questions about the repository or need further information, feel
 
 This README.md file reflects the structure and requirements specified in the acceptance criteria. It includes all the key sections, instructions for usage, and prompts for the user to provide project-specific details. Let me know if you’d like to adjust any parts!
 
-Screenshot:
+###Screenshot:
 
 ![ReamMe MD Generator screenshot](https://github.com/user-attachments/assets/8c47ff1f-7b03-47d6-9a38-04d622356aec)
