@@ -44,7 +44,7 @@ You will be prompted to provide the following information:
 
 Once all prompts are completed, a README.md file will be generated with the information provided.
 
-###Video Link : A walkthrough video demonstrating the application usage can be found here.
+Video Link : A walkthrough video demonstrating the application usage can be found here.
 [
 ](https://drive.google.com/file/d/1i3CIh3eO3DsdfEDOIJlCo9Lw9rwsadcz/view?usp=sharing)
 
